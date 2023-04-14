@@ -27,7 +27,7 @@ const Footer = () => {
 
             <div className='right'>
                 <h4>About Me</h4>
-                <p>This is Hema Moorthy.Student of Kongu Engineering College.I enjoy Learning New things and Designing the Website.</p>
+                <p>This is Hema Moorthy.Student of Kongu Engineering College. I enjoy Learning New things and Designing the Website.</p>
                 <div className="social">
                 <FaLinkedinIn size={20} style={{ color:"#fff",marginRight:"1rem"}}/>
                 <FaGithub size={20} style={{ color:"#fff",marginRight:"1rem"}}/>
