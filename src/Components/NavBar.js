@@ -11,10 +11,21 @@ const NavBar = () => {
         setClick(!click);
     }
 
+    const [color,setColor] = useState(false);
+    const changeColor = () =>{
+        if(window.scrollY >=100){
+            setColor(true);
+        }
+        else{
+            setColor(false);
+        }
+    };
+
+    window.addEventListener("scroll",changeColor);
 
     const blueStyle = { color: 'rgb(44, 187, 248)' };
     return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
          <Link to="/"> 
          <h1><span style={blueStyle}>Hema</span>Moorthy<span style={blueStyle}>.com</span></h1>
          

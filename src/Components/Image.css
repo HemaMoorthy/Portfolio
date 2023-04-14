@@ -47,8 +47,15 @@ text-align: center;
 }
 .content .btn{
     margin: 1rem 0 0.2rem;
+    margin-right: 10px;
 }
 
-.content {
-    padding: 3rem;
+@media screen and (max-width:640px){
+    .homeimage .content h1{
+        font-size: 3rem;
+    }
+    .homeimage .content p{
+        font-size: 1.4rem;
+        
+    }
 }
